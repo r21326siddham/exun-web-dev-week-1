@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span,a, img, ol, ul, li,footer
+, header, nav, section, h1, h2, h3, h4, h5, h6,p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+header {
+  height: 100%;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 5%;
+}
+
+nav logo {
+  font-weight:700;
+  font-size:18px;
+}
+nav ul {
+  display: flex;
+  max-width:28%;
+  justify-content:space-between;
+  flex-grow:1;
+}
+nav ul #home:first-of-type {
+  font-weight: 600;
+}
+nav ul li {
+  cursor:pointer;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+} 
+header .content h1 {
+  font-weight: 700;
+  font-size: 3.2em;
+  color:#474554;
+  line-height: 1.25;
+}
+header .content h1:nth-of-type(2) {
+  align-self:auto;
+}
+header .content p {
+  font-weight: 400;
+  font-size: 1.125em;
+  color: #646176;
+  width:80%;
+  line-height: 1.25;
+}
+header .content .btn {
+  letter-spacing: 1px;
+  font-size:1em;
+  color:white;
+  background-color: #474554;
+  border:none;
+  padding:2.5%;
+  border-radius: 4px;
+  margin-top:3em;
+  cursor: pointer;
+}
+main .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .top #projects {
+  font-weight: 700;
+  color:#474554;
+  margin:40px 0 40px 60px;
+  font-size:1.5em;
+}
+main .top form {
+  display: flex;
+  margin:40px 60px 40px 0;
+  border: 1px solid #A8A8A8;
+}
+main .top form input {
+  border-left:none;
+  border: none;
+  width:350px;
+  height: 45px;
+  font-size:20px;
+}
+main .top form button {
+  border-right:none;
+  background-color: white;
+  border: none;
+}
+main .top form button img {
+  padding-left:0.75em;
+}
+main .thumbnails {
+  margin-inline: 25px;
+}
+main .thumbnails .row1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+main .thumbnails .row2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  flex-wrap:wrap;
+}
+main .thumbnails .card {
+  cursor:pointer;
+}
+main .thumbnails .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+section p {
+  font-weight: 600;
+  padding-top:10px;
+  border-radius: 8px;
+}
+footer {
+  width:100%;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: center;
+}
+footer span {
+  padding:12px;
+  color:#474554;
+  border:1px solid #474554;
+  border-radius: 8px;
+  cursor:pointer;
+  transition:0.5s;
+}
+footer span:hover {
+  color:#6cbc5e;
+  border-color:#6cbc5e;
+}

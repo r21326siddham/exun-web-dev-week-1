@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span,a, img, ol, ul, li,footer
+, header, nav, section, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+html {
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    padding:1em 6em;
+}
+nav ul {
+    display: flex;
+    flex-grow:1;
+    max-width:220px;
+    justify-content: space-evenly;
+}
+nav #logo {
+    font-weight: 400;
+    font-size:2em;
+}
+nav #logo span {
+    color:#F66666;
+    font-weight: 700;
+}
+nav ul li #register {
+    color: #F66666;
+    background-color: #fff;
+}
+nav ul li #login {
+    color: #fff;
+    background-color: #F66666;
+    
+}
+nav .nav-item {
+    border:1px solid #F66666;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+}
+nav .nav-item:hover{
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+header {
+    background-color: #F66666;
+    padding:120px 85px;
+}
+header h1 {
+    color:#fff;
+    font-weight: 700;
+    font-size:3.5em;
+    width:600px;
+}
+
+header form input[type="text"] {
+    padding:15px 160px 15px 15px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top:30px;
+}
+h3 {
+    font-size:1.5em;
+    font-weight: 700;
+    margin:60px 0 60px 80px;
+}
+main .programming {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    margin-inline: 75px;
+    flex-wrap: wrap;
+}
+main .programming .card {
+    border-radius:30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 30px 2px #00000040;
+}
+main .programming .card:hover {
+    cursor:pointer;
+}
+main .programming .card .card-content {
+    text-align: center;
+    padding-block: 35px;
+}
+main .programming .card .card-content h4 {
+    font-weight:700;
+    font-size:20px;
+}
+main .programming .card .card-content h6 {
+    font-weight:400;
+    font-size:16px;
+    color:#757575;
+    padding-top: 12px;
+}
+article span {
+    color: #F66666;
+    position:relative;
+    left:85%;
+    cursor:pointer;
+}
+.container2 {
+    margin-bottom: 5%;
+}
